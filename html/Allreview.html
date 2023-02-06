@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+<body>
+
+    <div ng-controller="AllReview">
+        <div class="background_review">
+            <div class="container">
+                <div class="leave_review">
+                    <img id="imgTwoYoung" src="images/Allreview/two-young-teenage-girls-with-red-hair-sitting-in-t-9WCN5JP.png" alt="">  
+                    <div class="form_review">
+                        <p class="Feedback_Client">Client Feedback</p>
+                        <h1>Leave your Review</h1>
+                        <form class="review_content" name="reviewContent">
+                            <div class="form_group1">
+                                <input  type="text" name="" id="NameCustomer" placeholder="Name" ng-model="nameCustomer">         
+                                <span class="form-message"></span>   
+                            </div>    
+                            <div class="form_group2">
+                                <input type="email" name="" id="EmailCustomer" placeholder="Email" ng-model="emailCustomer">         
+                                <span class="form-message"></span>   
+                            </div>
+                            <div class="form_group3">
+                                <textarea name="" id="ReviewContent"  rows="8" placeholder="Message" ng-model="contentReviewOfCustomer"></textarea>
+                                <span class="form-message"></span>   
+                            </div>
+                        
+                            <button id="SubContent"> SEND</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="headerAllreview" id="review-anchor">
+            <div class="container">
+                <p id="Testimonial">Testimonial</p>
+                <h1 id="ClientsSay">What our Clients Say</h1>
+        </div>
+        <div class="body_all_review">
+            <ul class="container listReviewOfCustomer">
+                <li>
+                    <div class="contentOfCustomer contenCustomerTop">
+                        " Nullam eget felis eget nunc lobortis mattis. Velit aliquet sagittis id consectetur purus ut faucibus pulvinar. Id volutpat lacus laoreet non curabitur gravida arcu ac tortor. Lectus mauris ultrices eros in cursus turpis. Sit amet consectetur adipiscing elit."
+                    </div>
+                    <div class="imgCustomer">
+                        <img src="images/Allreview/omg-beautiful-young-female-with-hair-bun-having-jo-XJ6SSHE.jpg" alt="">
+                    </div>
+                    <div class="nameOfCustomer nameOfCustomerTop">
+                        <p>Jane Felini</p>
+                    </div>
+                </li>
+                <li class="tableReview">
+                    <ul>    
+                        <li class="BodyCustomerReview" ng-repeat="Review in listReview">
+                            <div class="contentOfCustomer ">
+                                {{Review.content}}
+                            </div>
+                            <div class="CustomerReview">
+                                <img src={{Review.imgCustomer}} alt="">
+                                <p>{{Review.nameCustomer}}</p>
+                            </div>
+                            
+                        </li>
+                    </ul>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+
+    <script src="/js/Allreview.js"></script>
+    </body>
+</html>

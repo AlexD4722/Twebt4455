@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    
+</head>
+<body>
+<div ng-controller="MyContenHome">
+    <div class="slider">
+   
+        <div class="myslide fade">
+            <img class="imgBanner" src="images/Home/Banner3.png" alt="">
+        </div>
+        <div class="myslide fade">
+            <img class="imgBanner" src="images/Home/Banner2.png"  alt="">
+        </div>
+        <div class="myslide fade">
+            <img class="imgBanner" src="images/Home/Banner1.png"  alt="">
+        </div>
+   
+        <div class="control prev" ng-click="plusSlides(-1)" >
+            <i class="bi bi-chevron-left"></i>
+        </div>
+        <div class="control next" ng-click="plusSlides(+1)">
+            <i class="bi bi-chevron-right"></i>
+        </div>
+        <div class="dotsbox" style="text-align:center">
+            <span class="dot" ng-click="currentSlide(1)"></span>
+            <span class="dot" ng-click="currentSlide(2)"></span>
+            <span class="dot" ng-click="currentSlide(3)"></span>
+        </div>
+        
+    </div>
+    <div class="container">
+        <div id="service_pizza">
+            <div class="text_service">
+                <p id="Fast_Delivery">Fast Delivery</p>
+                <h2>Your Favorite Pizza,</h2>
+                <h2 id="the_way"> on the Way!</h2>
+                <p id="detail_Fast_Delivery">Scelerisque fermentum dui faucibus in ornare quam viverra orci. Interdum velit laoreet id donec ultrices tincidunt. Velit euismod in pellentesque massa placerat duis.</p>
+        </div>
+            <div class="list_section_service">
+                <div class="list_section">
+                    <img src="images/Home/Delivery-Motorcycle.png" alt="">
+                    <p>Delivery in 30 minutes</p>
+        </div>
+                <div class="list_section">
+                    <img src="images/Home/Free-Delivery.png" alt="">
+                    <p>Free shipping from 75$</p>
+                </div>
+                <div class="list_section">
+                    <img src="images/Home/Pizza-Delivery.png" alt="">
+                    <p>Delivery on your doorstep</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="seasidetms" style="background-image: url(images/Home/15_pizza-delivery_call_to-action_top_-part.jpg)">
+        <h3 class="seasidetms_heading">We’ll Deliver Your Masterpiece!</h3>
+        <h2 >Go Crazy And Choose Your Own Pizza!</h2>
+        <a href="#!menu" class="seasidetms_button" href="">
+            <div>CHOOSE IT NOW</div>
+        </a>
+        <div class="seasidetms_bottom"></div>
+    </div>
+    <div class="container">
+        <div class="feedback_customer">
+            <div class="colum_feedback_1">
+                <h6>Lovely Memories</h6>
+                <h2 id="Our_Best">Our Best</h2>
+                <h2 id="Pizza_Lovers">Pizza Lovers.</h2>
+                <a class="colum_feedback_1_button" href="#!Allreview"> 
+                    <div> ALL REVIEWS</div>
+                </a>
+            </div>
+            <div class="colum_feedback_2">
+                <ul class="list_feedback_costomer">
+                    <li class="cart_customer_feedback">
+                        <div class="info_customer">
+                            <img src="images/Home/customer3.jpg" alt="">
+                            <div id="name_customer">John Beef</div>
+                        </div>
+                        <div class="content_feedback">
+                            " Consequat id porta nibh venenatis cras sed felis. Enim lobortis scelerisque fermentum dui faucibus in ornare. Diam quam nulla porttitor massa id neque. Sem integer vitae justo eget magna. Ac turpis egestas integer eget aliquet nibh praesent tristique. Netus et malesuada fames ac turpis egestas. "
+                        </div>
+                    </li>
+                    <li class="cart_customer_feedback clear">
+                        <div class="info_customer">
+                            <img src="images/Home/customer2.jpg" alt="">
+                            <div id="name_customer">John Beef</div>
+                        </div>
+                        <div class="content_feedback">
+                            " Viverra maecenas accumsan lacus vel. Mus mauris vitae ultricies leo integer malesuada nunc vel. Ipsum dolor sit amet consectetur. Et molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Consequat mauris nunc congue nisi vitae suscipit tellus. Nunc id cursus metus aliquam eleifend. "
+                        </div>
+                    </li>
+                    <li class="cart_customer_feedback clear">
+                        <div class="info_customer">
+                            <img src="images/Home/customer1.jpg" alt="">
+                            <div id="name_customer">John Beef</div>
+                        </div>
+                        <div class="content_feedback">
+                            " Faucibus ornare suspendisse sed nisi lacus sed viverra. Sed arcu non odio euismod. Auctor urna nunc id cursus metus aliquam eleifend mi. Elit sed vulputate mi sit amet mauris commodo quis.
+                            Accumsan lacus vel facilisis volutpat est velit egestas. Nisi quis eleifend quam adipiscing dolor purus lacinia morbi. "
+                        </div>
+                    </li>
+                </ul>
+                <div class="cart_customer_feedback_button">
+                    <div class="feedback_button feedback_button_next">
+                        Next
+                    </div>
+                    <div class="feedback_button feedback_button_prev">
+                        Prev
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/js/ContenHome.js"></script>
+
+</body>
+</html>

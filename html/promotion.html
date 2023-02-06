@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <ul ng-controller="crtlPromotion" class="promotionBackGround">
+        <li ng-repeat="p in listPromotion" class="promotion rowPromotion" ng-class-even="">
+            <div class="container giftPromotion">
+                <img class="imgPromotion" src={{p.img}} alt="">
+                <div class="detailPromotion ">
+                    <p class="textSpHead"><span>Promotion</span>Deal</p>
+                    <h2 class="contentPromotion">
+                        {{p.content}}
+                    </h2>
+                    <div class="codePromotion">
+                        Code Discoust: <span>{{p.code}}</span> 
+                    </div>
+                    <div class="dueTimePromotion">
+                        Due time: {{p.dueTime}}
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</body>
+</html>

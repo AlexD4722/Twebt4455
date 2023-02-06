@@ -1,0 +1,78 @@
+.policy-block {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.policy-headlines {
+    width: 95%;
+    display: inline-block;
+    color: red;
+    padding: 10px 0;
+}
+
+.policy-headlines-block, .policy-small-headlines {
+    cursor: pointer;
+}
+
+.policy-headlines-block i {
+    width: 5%;
+    text-align: center;
+    font-size: large;
+}
+
+.policy-headlines-block:hover {
+    background-color: rgba(1, 1, 1, 0.1);
+}
+
+.policy-small-headlines:hover {
+    background-color: rgba(1, 1, 1, 0.1);
+}
+
+.policy-small-headlines h3 {
+    width: 95%;
+    display: inline-block;
+    color: green;
+    margin: 20px 0;
+}
+
+.policy-small-headlines i {
+    display: inline-block;
+    width: 4%;
+}
+
+.policy-block p {
+    margin-bottom: 10px;
+}
+
+.policy-para-list, .policy-para-ordered-list{
+    padding-left: 40px !important;
+}
+
+.policy-hidden {
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    opacity: 0;
+}
+
+.policy-reveal {
+    position: relative;
+    height: 100%;
+    opacity: 1;
+    transition: 500ms ease;
+}
+
+@media only screen and (max-width: 1200px) {
+    .policy-block {
+        width: 95%;
+        font-size: x-large;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .policy-block {
+        width: 100%;
+        font-size: x-large;
+        margin: 10px auto;
+    }
+}

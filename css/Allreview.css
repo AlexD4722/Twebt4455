@@ -1,0 +1,233 @@
+body{
+  font-family: 'Montserrat',sans-serif;
+}
+
+@font-face {
+  font-family: Knewave;
+  src:url('../fonts/Knewave-Regular.ttf');
+}
+@font-face {
+  font-family: Satisfy;
+  src:url('../fonts/Satisfy-Regular.ttf');
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+.background_review{
+  background-color: #F9F5F2;
+}
+.leave_review{
+  background-color: #F9F5F2;
+  width: 100%;
+  box-sizing: content-box;
+  display: flex;
+  position: relative;
+}
+#imgTwoYoung{
+  width: 45%;
+  height: 100%;
+  margin: auto 0;
+}
+
+.leave_review > .form_review{
+  margin-left: 5%;
+  width:calc(100% - 45%);
+  padding: 7% 0 ;
+}
+.Feedback_Client{
+  font-family: 'Satisfy';
+  color: #FFA609;
+  font-size: 1.6rem;
+}
+.form_review > h1 {
+  font-weight: 500;
+  margin-top: 7px;
+  font-size: 2.3rem;
+  font-family: Inter-ExtraBold, sans-serif;
+}
+.review_content{
+  margin-top: 7%;
+}
+ 
+#NameCustomer{
+  width: 100%;
+  border: 1px solid  #e3d5c9;
+  padding: 10px 5px;
+  /* color: #fcfcfc; */
+}
+
+#EmailCustomer{
+  width: 100%;
+  border: 1px solid  #e3d5c9;
+  padding: 10px 5px;
+}
+
+#ReviewContent{
+  font-family: sans-serif;
+  margin-top: 30px;
+  padding: 5px 0 0 5px;
+  border: 1px solid  #e3d5c9;
+  width: 100%;
+  resize: none;
+}
+.form_group1{
+  width: 48%;
+  float: left;
+}
+.form_group2{
+  width: 48%;
+  float: right;
+}
+.form_group3{
+  width: 100%;
+  height: 200px;
+}
+#SubContent{
+  width: 100%;
+  border: none;
+  background-color: #FFA609;
+  padding: 14px 0;
+  border-radius: 5px;
+  margin-top: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#SubContent:hover {
+  color: #fff;  
+  background: rgb(0, 0, 0);
+}
+.form-message {
+  font-size: 0.9rem;
+  line-height: 1rem;
+  padding: 4px 0 0;
+  margin-left: 3%;
+  text-align: start !important;
+  color: #FF0000;
+}
+.headerAllreview{
+  text-align: center;
+  margin-top: 13% ;
+}
+#Testimonial{
+  color: #FFA609;
+  font-family:'Satisfy';
+  font-size: 1.6rem;
+}
+#ClientsSay{
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  font-family: Inter-ExtraBold, sans-serif;
+}
+.listReviewOfCustomer{
+  list-style: none;
+}
+.contenCustomerTop{
+  margin: 30px 0 ;
+  font-style: italic;
+  color: #797979;
+}
+.imgCustomer > img{
+  border-radius: 50%;
+}
+.nameOfCustomerTop{
+  font-family:'Satisfy';
+  margin: 10px;
+}
+.nameOfCustomer > p{
+  font-size: 1.5rem;
+  font-family:'Satisfy' !important;
+}
+.tableReview > ul{
+display: inline-block;
+list-style: none;
+text-align: center;
+}
+.tableReview > ul > li{
+  width: calc(100% - 68.666666666666667%);
+    float: left;
+    margin: 30px 1%;
+  box-sizing: border-box;
+  height: 300px;
+  
+}
+.contentOfCustomer{
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.CustomerReview{
+  width: 80%;
+  margin:0 auto;
+}
+.CustomerReview > img {
+  width: 30%;
+  border-radius: 50%;
+}
+.CustomerReview > p {
+  width: 60%;
+  float: right;
+  text-align: start;
+  margin: 14px 0 0 5px;
+  font-size: 1rem;
+  font-weight: 800;
+  color: black;
+}
+.BodyCustomerReview{
+  border: 0.5px solid rgb(227, 226, 226);
+  padding: 10px 10px;
+  color: #797979;
+}
+.BodyCustomerReview:hover {
+  box-shadow:0 0 3px 1px;
+  background-color: #fbf7f3;
+}
+@media only screen and (max-width: 955px) {
+  .tableReview > ul > li{
+    height: 350px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .leave_review{
+    display: inline-block;
+    text-align: center;
+  }
+  .review_content{
+    text-align: start;
+  }
+  .form_review{
+    margin: 0 !important;
+    width: 100% !important;
+  }
+  
+}
+@media only screen and (max-width: 850px) {
+  .tableReview > ul > li{
+    width: calc(100% - 54%);
+    float: left;
+    margin: 30px 2%;
+    
+  }
+  .tableReview > ul > li{
+    height: 300px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .tableReview > ul > li{
+    width: calc(100%);
+    float: left;
+    
+  }
+  .contentOfCustomer{
+    display: inline-block;
+  }
+  .tableReview > ul > li{
+    height: auto !important;
+  }
+}
+@media only screen and (max-width: 655px) {
+  .tableReview > ul > li{
+    height: 350px;
+  }
+}

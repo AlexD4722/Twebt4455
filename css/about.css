@@ -1,0 +1,225 @@
+.about-headline h1 {
+    padding: 50px 0 0 10%;
+}
+
+.about-who {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    padding: 50px 0;
+    color: white;
+    background-color: #D53232;
+    border-radius: 12px;
+}
+
+.about-who p {
+    padding: 50px 100px;
+}
+
+.about-what h1 {
+    padding: 0 10%;
+    text-align: center;
+}
+
+.stand-for-box {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.what-card {
+    width: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 350px;
+}
+
+.about-what-image {
+    width: 60%;
+    margin: 0 auto 50px;
+}
+
+.about-what-image img {
+    width: 100%;
+}
+
+.about-what h3 {
+    margin-bottom: 25px;
+}
+
+.upto {
+    width: 80%;
+    height: 500px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.upto-header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.upto-card {
+    width: 30%;
+    text-align: center;
+    padding: 75px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: url("../images/background/gray-marble-textured-background.jpg");
+    background-size: 50%;
+    border-radius: 12px;
+}
+
+.upto-card h1 {
+    font-size: xx-large;
+    font-weight: bold;
+    color: #F90000;
+    margin-bottom: 25px;
+}
+
+.upto-card button {
+    width: 40%;
+    height: 40px;
+    margin: 50px auto 0;
+    border: none;
+    border-radius: 8px;
+    background-color: #F90000;
+    cursor: pointer;
+}
+
+.upto-card a {
+    text-decoration: none;
+    color: white;
+}
+
+.about-why {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #F90000;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 12px;
+}
+
+.about-why-text {
+    width: 50%;
+    margin: 100px 0;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about-why-text button {
+    width: 30%;
+    height: 80px;
+    margin: 50px auto 0;
+    border: none;
+    border-radius: 8px;
+    background-color: #FFE148;
+    cursor: pointer;
+    font-size: x-large;
+}
+
+.about-why-text a {
+    text-decoration: none;
+    color: #F90000;
+    font-weight: bold;
+}
+
+.about-why-image {
+    width: 50%;
+}
+
+.about-why-image img {
+    width: 70%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .about-who {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .stand-for-box {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .upto {
+        width: 100%;
+        height: 500px;
+    }
+
+    .about-why {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .about-why-image img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 675px) {
+    .what-card {
+        width: 50%;
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .about-who {
+        padding: 0;
+    }
+
+    .about-who p {
+        padding: 40px 50px;
+    }
+
+    .what-card {
+        width: 100%;
+        height: 500px;
+    }
+
+    .upto {
+        width: 100%;
+        height: 1500px;
+    }
+
+    .upto-card {
+        width: 100%;
+        border-radius: 0;
+        margin-top: 10px;
+    }
+
+    .about-why {
+        width: 100%;
+    }
+
+    .about-why-text {
+        width: 100%;
+    }
+
+    .about-why-image {
+        display: none;
+    }
+
+    .about-why-image img {
+        width: 100%;
+    }
+}
+

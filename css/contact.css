@@ -1,0 +1,278 @@
+.contact #ct_right button#button{
+    cursor: pointer;
+}
+@media only screen and (min-width: 1201px) {
+    .contact{
+        width: 80%;
+        margin: auto;
+        justify-content: center;
+        display: block;  
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
+    .contact #ct_top{
+        width: 100%;
+        margin: 30px auto;
+        text-align: center;
+        margin-bottom:50px;
+        font-weight: bold;
+        font-size: 50px;
+    }
+    #ct_top div.text1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-shadow: 10px -10px 8px rgb(230, 190, 83);
+   }
+    .contact #ct_left{
+        clear: both;
+        width: 50%;
+        float: left;
+    }
+    .title_ct_left{
+        float: left;
+       color:rgb(0, 0, 0);
+       margin-bottom:20px;
+       font-size: 40px;
+       font-weight: bold;
+       position: relative; 
+    }
+    .title_ct_left::after{
+        position: absolute;
+        content: "";
+        bottom:0;
+        left:0;
+        height: 1px;
+        width: 0%;
+        font-size:30px;
+        transition: 0.4s;
+        opacity: 0;   
+    }
+    .title_ct_left:hover::after{
+        width:100%;
+        opacity: 1;
+        background:black;
+        transition: 0.4s; 
+    }
+    .conten_ct{
+        width: 100%;
+    }
+    .conten_ct_left{
+        width: 50%;
+        float:left;
+    }
+     .conten_ct_left .info_ct ul li{
+        list-style: none;  
+        transition: 0.5s;
+    }
+     .conten_ct_left .info_ct{
+        margin-bottom: 35px;
+    }
+     .conten_ct_right .info_ct{
+        margin-bottom: 35px;
+    }
+    .conten_ct_right{
+        width: 50%;
+        float:right;
+    }
+       .conten_ct_right .info_ct ul li{
+        list-style: none; 
+        transition: 0.5s;
+    }
+     .conten_ct_left .info_ct :hover {
+        transition: 0.5s;
+        margin-left:-10px;
+        width: 100%;
+        border-left: 0px solid rgba(255, 255, 255, 0);
+    }
+     .conten_ct_right .info_ct :hover{
+        transition: 0.5s;
+        margin-left:-10px; 
+        width: 100%;
+        border-left: 0px solid rgba(255, 255, 255, 0);
+    }
+    .contact #ct_right{
+        width: 50%;
+        float: left; 
+    }
+    .contact #ct_right input{
+        width: 100%;
+        padding:20px;
+        margin-bottom:20px ; 
+        border:none;
+        border-bottom:1px solid rgba(0, 0, 0, 0.288);
+        outline: none;
+        border-radius:10px;
+    }
+    .contact #ct_right input.messages{
+        padding-bottom: 150px;
+    }
+    .contact #ct_right button#button{
+      background:orange;
+      border: none;
+      width: 100%;
+      color:white;
+      padding:20px;
+      border-radius: 10px;
+      margin-bottom:20px;
+    }
+    .block_ct1{
+        line-height: 32px;
+    }
+    .block_ct2{
+        line-height: 32px;
+    }
+}
+@media only screen and (max-width: 1200px) { 
+    .contact{
+        width: 80%;
+        margin: auto;
+        justify-content: center;
+        display: block;  
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .contact #ct_top{
+        width: 100%;
+        margin:30px auto;
+        text-align: center;
+        margin-bottom:50px;
+        font-weight: bold;
+        font-size: 50px;
+    }
+    #ct_top div.text1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-shadow: 10px -10px 8px rgb(230, 190, 83);
+   }
+    .title_ct_left{
+        color:rgb(236, 87, 87);
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 30px;
+     }
+    .contact #ct_left{
+        width: 35%;
+        float:left;
+        margin-bottom: 30px;
+    }
+    .conten_ct_left .info_ct ul {
+        width: 80%;
+        list-style: none;
+        border-bottom: 3px solid rgba(0, 0, 0, 0);
+        transition: 0.6s;
+     }
+    .conten_ct_right .info_ct ul {
+        width: 80%;
+        list-style: none;
+        border-bottom: 3px solid rgba(0, 0, 0, 0);
+        transition: 0.6s;
+     }
+     .conten_ct_left .info_ct{
+        padding-bottom:20px;
+        color:rgba(0, 0, 0, 0.377);
+     }
+     .conten_ct_right .info_ct{
+        padding-bottom:20px;
+        color:rgba(0, 0, 0, 0.377);
+     }
+     .conten_ct_right .info_ct:hover ul{
+        border-radius: 3px;
+        text-align: center;
+        transition: 0.6s;
+        opacity: 0.7;
+        color:rgb(0, 0, 0);
+        
+     }
+     .conten_ct_left .info_ct:hover ul{
+        border-radius: 3px;
+        text-align: center;
+        transition: 0.6s;
+        opacity: 0.7;
+        color:rgb(0, 0, 0);
+        
+     }
+    .contact #ct_right{
+        margin-top:30px;
+        width: 65%;
+        float:right;
+    }
+    .contact #ct_right input{
+        width: 100%;
+        padding:20px;
+        margin-bottom:50px ;
+        border-radius: 10px;  
+        outline: none;
+        border:none;
+        border-bottom:1px solid rgba(0, 0, 0, 0.288);
+    }
+    .contact #ct_right input.messages{
+        padding-bottom: 150px;
+    }
+    .contact #ct_right button#button{
+      background:orange;
+      border: none;
+      width: 100%;
+      color:white;
+      padding:20px;
+      border-radius: 10px;
+    }
+}
+@media only screen and (max-width:640px){
+    .contact{
+        width: 80%;
+        margin: auto;
+         justify-content: center;
+         display: block;  
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .contact #ct_top{
+        width: 100%;
+        margin:30px auto;
+        text-align: center;
+        margin-bottom:50px;
+        font-weight: bold;
+        font-size: 50px;
+    }
+    #ct_top div.text1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-shadow: 10px -10px 8px rgb(230, 190, 83);
+   }
+    .title_ct_left{
+        color:rgb(102, 196, 78);
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+     }
+     .contact #ct_left {
+        width: 100%;
+        text-align: center;
+    }
+  
+
+    
+
+     .contact #ct_right{
+        width: 100%;
+        margin-top:40px;
+     }
+     .contact #ct_right input{
+        width: 100%;
+        padding:20px;
+        margin-top:15px ;
+        border-radius: 10px;  
+        outline: none;
+        border:none;
+        border-bottom:1px solid rgba(0, 0, 0, 0.288);
+    }
+    .contact #ct_right input.messages{
+        padding-bottom: 150px;
+    }
+    button#button{
+      background:orange;
+      border: none;
+      width: 100%;
+      margin-bottom: 30px;
+      margin-top: 20px;
+      color:white;
+      padding:20px;
+      border-radius: 10px;
+    }
+   
+}

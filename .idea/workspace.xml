@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="13a737d6-004a-48cb-96db-4846c4685344" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Allreview.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Allreview.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/policy.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/policy.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Allreview.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Allreview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/policy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/routes-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/routes-config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2K1uTrt5jSKgSXy2lwbSKRJc8kF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/GitProject/shale-pizza_store&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\Documents\GitHub\shale-pizza_store\js" />
+      <recent name="C:\Users\ADMIN\Documents\GitHub\shale-pizza_store\css" />
+      <recent name="C:\Users\ADMIN\Documents\GitHub\shale-pizza_store\html" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\Documents\GitHub\shale-pizza_store\html-test" />
+      <recent name="C:\Users\ADMIN\Documents\GitHub\shale-pizza_store\html" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13a737d6-004a-48cb-96db-4846c4685344" name="Changes" comment="" />
+      <created>1673154420938</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673154420938</updated>
+      <workItem from="1673154422773" duration="15000" />
+      <workItem from="1673156895733" duration="476000" />
+      <workItem from="1673233904489" duration="3635000" />
+      <workItem from="1673254852828" duration="5548000" />
+      <workItem from="1673266779599" duration="287000" />
+      <workItem from="1673379407461" duration="69000" />
+      <workItem from="1673723304205" duration="165000" />
+      <workItem from="1673723559190" duration="313000" />
+      <workItem from="1673724007241" duration="29000" />
+      <workItem from="1673724243284" duration="21000" />
+      <workItem from="1673725047049" duration="627000" />
+      <workItem from="1673777122045" duration="174000" />
+      <workItem from="1673792547598" duration="125000" />
+      <workItem from="1673805968527" duration="452000" />
+      <workItem from="1673806881272" duration="467000" />
+      <workItem from="1674050295229" duration="2073000" />
+      <workItem from="1674058033928" duration="3028000" />
+      <workItem from="1674062737864" duration="410000" />
+      <workItem from="1674069201798" duration="251000" />
+      <workItem from="1674076055217" duration="101000" />
+      <workItem from="1674076250436" duration="25000" />
+      <workItem from="1674076309168" duration="14000" />
+      <workItem from="1674135018729" duration="716000" />
+      <workItem from="1674136004098" duration="88000" />
+      <workItem from="1674137278551" duration="329000" />
+      <workItem from="1674150015278" duration="26000" />
+      <workItem from="1674199424182" duration="14000" />
+      <workItem from="1674391859472" duration="52000" />
+      <workItem from="1674393092079" duration="44000" />
+      <workItem from="1674393160098" duration="1041000" />
+      <workItem from="1674416215844" duration="5189000" />
+      <workItem from="1674426481751" duration="314000" />
+      <workItem from="1674427673770" duration="38000" />
+      <workItem from="1674427721574" duration="42000" />
+      <workItem from="1674428213082" duration="3000" />
+      <workItem from="1674428322543" duration="494000" />
+      <workItem from="1674436254635" duration="108000" />
+      <workItem from="1674460363113" duration="653000" />
+      <workItem from="1674495395391" duration="57000" />
+      <workItem from="1674633027445" duration="11000" />
+      <workItem from="1674892539338" duration="937000" />
+      <workItem from="1674924714423" duration="14000" />
+      <workItem from="1674985755799" duration="103000" />
+      <workItem from="1675217623052" duration="7164000" />
+      <workItem from="1675245426081" duration="461000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
